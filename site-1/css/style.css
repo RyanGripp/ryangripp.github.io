@@ -1,0 +1,88 @@
+body{
+    font-family: Verdana;
+    color: white;
+    margin: 0;
+    padding: 0 20%;
+    background-color: #002434;
+}
+header{
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+}
+header .menu{
+    flex-grow: 4;
+    font-size: 12px;
+}
+header .logo h1{
+    margin: 0;
+    font-weight: 100;
+    font-size: 28px;
+}
+header .logo h1 span{
+    margin-bottom: 20px;
+    color: #00a1de;
+}
+header .menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+header .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo{
+    padding: 20px;
+    background-color: white;
+}
+.conteudo .surf{
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: Verdana;
+    color: white;
+    background: url("../img/surf.png") no-repeat;
+    background-size: 100%;
+    background-position: 0px -100px;
+}
+.conteudo .surf h1{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: 10;
+}
+.conteudo .surf h3{
+    margin-bottom: 120px;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+.conteudo .textos{
+    display: flex;
+    column-gap: 15px;
+}
+.conteudo .textos .bloco{
+    width: 30%;
+    padding: 15px;
+    background-color: #0076aa;
+}
+.conteudo .textos .bloco button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(#2dc0f5, #288abc);
+    font-size: 18px;
+}
+.conteudo .textos .bloco h2{
+    font-weight: 100;
+    margin-top: 0;
+}
+.conteudo .textos .bloco h4{
+    font-size: 11px;
+    margin-top: 0;
+}
