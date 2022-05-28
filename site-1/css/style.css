@@ -34,6 +34,21 @@ header .menu ul{
 header .menu ul li a{
     color: white;
     text-decoration: none;
+    animation-name: menu-link-2;
+    animation-duration: 1s;
+}
+@keyframes menu-link{
+    0%   {color: white;}
+    100% {color: #0076aa;}
+}
+@keyframes menu-link-2{
+    0%   {color: #0076aa;}
+    100% {color: white;}
+}
+header .menu ul li a:hover{
+    color:#0076aa;
+    animation-name: menu-link;
+    animation-duration: .7s;
 }
 
 .conteudo{

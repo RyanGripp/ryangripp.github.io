@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+</head>
+<body>
+    <!-- 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 -->
+    <form method="get" action="php/index.php"><!--  method: get, post, put, delete -->
+        <fieldset class="user">
+            <legend>Dados pessoais</legend>
+            <label for="user-nome">Nome: </label>
+            <input type="text" name="user-nome" id="nome" maxlength="30" placeholder="Digite seu nome...">
+            <br>
+            <label for="user-email">Email: </label>
+            <input type="email" name="user-email" id="email" maxlength="30" placeholder="Digite seu email...">
+            <br>
+            <label for="user-senha">Senha: </label>
+            <input type="password" name="user-senha" id="senha" placeholder="Passa a senha...">
+            <br>
+            <label for="user-idade">Idade: </label>
+            <input type="number" name="user-idade" id="idade" maxlength="3" placeholder="Não esconda sua idade...">
+            <br>
+            <label for="user-datanasc">Data de nascimento: </label>
+            <input type="date" name="user-datanasc" id="datanasc">
+        </fieldset>
+        <fieldset>
+            <legend>Escolaridade</legend>
+            <input name="escolaridade" type="radio" value="fundamental"> Fundamental
+            <input name="escolaridade" type="radio" value="medio"> Médio
+            <input name="escolaridade" type="radio" value="superior"> Superior
+            <input name="escolaridade" type="radio" value="Posgraduacao"> Pós-graduação
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input name="esporte" type="checkbox" value="futebol"> Futebol
+            <input name="esporte" type="checkbox" value="voley"> Voley
+            <input name="esporte" type="checkbox" value="basquete"> Basquete
+            <input name="esporte" type="checkbox" value="sinuca"> Sinuca
+        </fieldset>
+        <label for="uf">Estado de origem </label>
+        <select name="uf">
+            <option value="rj">Rio da Janeiro</option>
+            <option value="sp">São Paulo</option>
+            <option value="mg">Minas Gerais</option>
+        </select>
+        <br>
+        <label for="cor">Cor: </label>
+        <input type="color" name="cor" id="cor">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
