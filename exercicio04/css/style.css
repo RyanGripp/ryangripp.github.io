@@ -28,7 +28,7 @@ header nav ul li{
     list-style: none;
 }
 header nav ul li a{
-    margin: 1px;
+    margin: 2px;
     padding: 18px;
     font-size: 15px;
     text-decoration: none;
@@ -37,7 +37,13 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     margin: 0;
-    border: white 1px solid;
+    border: white 2px solid;
+    border-radius: 30px;
+    opacity: 1;
+}
+header nav ul li .active{
+    margin: 0;
+    border: white 2px solid;
     border-radius: 30px;
     opacity: 1;
 }
@@ -49,45 +55,48 @@ main{
     justify-content: space-between;
     padding: 4vw;
 }
-main .left{
+main #left{
     width: 61vw;
 }
-main .left h1{
+main #left h1{
     margin: 0;
     font-size: 50px;
 }
-main .left h3{
+main #left h3{
     margin: 0 0 50px 0;
     font-size: 20px;
 }
-main .left img{
+main #left img{
     width: 100%;
 }
-main .right{
+main #left p .link{
+    color: black;
+}
+main #right{
     width: 25vw;
 }
-main .right h1{
+main #right h1{
     text-transform: uppercase;
     font-size: 25px;
 }
-main .right h3{
+main #right h3{
     text-transform: uppercase;
     opacity: 0.5;
     font-size: 11px;
 }
-main .right .bloco{
+main #right .bloco{
     display: flex;
     align-items: center;
 }
-main .right .bloco img{
+main #right .bloco img{
     margin-right: 25px;
 }
-main .right .bloco h4{
+main #right .bloco h4{
     margin: 0;
     font-size: 14px;
     line-height: 28px;
 }
-main .right .linha{
+main #right .linha{
     margin-bottom: 25px;
     padding-bottom: 50px;
     border-bottom: rgba(0, 0, 0, 0.1) 3px solid;
@@ -99,12 +108,47 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 60px;
+    align-items: end;
     background-color: whitesmoke;
     padding: 4vw;
 }
 section h2{
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 section img{
     width: 100%;
+}
+section h4{
+    line-height: 30px;
+}
+section button{
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgb(223, 93, 46);
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+footer{
+    padding: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+footer h2{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+footer h3{
+    padding-bottom: 12px;
+    opacity: 0.2;
+}
+footer .linha{
+    border-bottom: white 2px solid;
+    opacity: 0.2;
 }
