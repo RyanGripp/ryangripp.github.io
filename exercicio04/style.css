@@ -1,0 +1,73 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+header{
+    padding-top: 10vw;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 30vw;
+    background: url(images/banner.jpg) no-repeat;
+    background-size: 100%;
+}
+header h1{
+    margin: 0;
+    font-size: 60px;
+}
+header h3{
+    margin: -10px 0 100px 0;
+    font-size: 16px;
+    opacity: 0.5;
+}
+header nav ul{
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    list-style: none;
+}
+header nav ul li a{
+    margin: 1px;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+header nav ul li a:hover{
+    margin: 0;
+    border: white 1px solid;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    padding: 3vw;
+}
+main .left{
+    width: 60vw;
+    margin-right: 50px;
+}
+main .left h1{
+    margin: 0;
+    font-size: 50px;
+}
+main .left h3{
+    margin: 0 0 50px 0;
+    font-size: 20px;
+}
+main .left img{
+    width: 100%;
+}
+main .right{
+    width: 30vw;
+}
+main .right .blocos{
+    display: flex;
+}
+main .right h1{
+    text-transform: uppercase;
+}
