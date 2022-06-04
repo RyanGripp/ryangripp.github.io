@@ -1,0 +1,110 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+header{
+    padding-top: 13vw;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 27vw;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: 100%;
+}
+header h1{
+    margin: 0;
+    font-size: 70px;
+}
+header h3{
+    margin: -8px 0 80px 0;
+    font-size: 18px;
+    opacity: 0.5;
+}
+header nav ul{
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    list-style: none;
+}
+header nav ul li a{
+    margin: 1px;
+    padding: 18px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+header nav ul li a:hover{
+    margin: 0;
+    border: white 1px solid;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+/* -----MAIN----- */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+}
+main .left{
+    width: 61vw;
+}
+main .left h1{
+    margin: 0;
+    font-size: 50px;
+}
+main .left h3{
+    margin: 0 0 50px 0;
+    font-size: 20px;
+}
+main .left img{
+    width: 100%;
+}
+main .right{
+    width: 25vw;
+}
+main .right h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+main .right h3{
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: 11px;
+}
+main .right .bloco{
+    display: flex;
+    align-items: center;
+}
+main .right .bloco img{
+    margin-right: 25px;
+}
+main .right .bloco h4{
+    margin: 0;
+    font-size: 14px;
+    line-height: 28px;
+}
+main .right .linha{
+    margin-bottom: 25px;
+    padding-bottom: 50px;
+    border-bottom: rgba(0, 0, 0, 0.1) 3px solid;
+}
+
+/* -----SECTION----- */
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    background-color: whitesmoke;
+    padding: 4vw;
+}
+section h2{
+    text-transform: uppercase;
+}
+section img{
+    width: 100%;
+}
