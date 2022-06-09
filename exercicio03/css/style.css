@@ -3,7 +3,6 @@ body{
     margin: 0;
     /* background-color: black; */
 }
-/* clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%); */
 
 header{
     width: 100%;
@@ -19,6 +18,7 @@ header nav{
     justify-content: space-between;
     width: 100%;
     height: 50px;
+    border-bottom: 1px rgb(200, 200, 200) solid;
 }
 header nav .menu{
     display: flex;
@@ -27,14 +27,17 @@ header nav .menu{
 }
 header nav .menu .logo{
     display: flex;
-    border-right: black 1px solid;
-    width: 12vw;
+    border-right: 1px rgb(200, 200, 200) solid;
+    width: 13vw;
     height: 50px;
     align-items: center;
     justify-content: center;
 }
 header nav .menu .logo h2{
     margin: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
 }
 header nav ul{
     display: flex;
@@ -42,13 +45,304 @@ header nav ul{
     padding: 0;
 }
 header nav ul .borda{
-    border-right: black 1px solid;
+    border-right: 1px rgb(200, 200, 200) solid;
 }
 header nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(160, 160, 160);
     padding: 17px;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 3px;
+}
+header nav .buttons a{
+    border-left: 1px rgb(200, 200, 200) solid;
+    padding: 16px 20px;
+}
+header nav .buttons i{
+    color: rgb(160, 160, 160);
+}
+
+main{
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 5vw 10vw 2vw 10vw;
+}
+#left{
+    margin-right: 50px;
+    width: 22vw;
+}
+#left .apresentacao{
+    padding-bottom: 50px;
+    border-bottom: 1px rgb(200, 200, 200) solid;
+}
+#left .apresentacao .titulo{
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 8px;
+    font-weight: 1000;
+}
+#left .apresentacao .logo img{
+    clip-path: polygon(5% 25%, 50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%);
+    width: 70px;
+}
+#left .apresentacao h3{
+    color: rgb(160, 160, 160);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+#left .apresentacao h3 a{
+    color: rgb(160, 160, 160);
+}
+#left .portifolio{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(200, 200, 200) solid;
+}
+#left .portifolio .bloco{
+    border: 1px rgb(200, 200, 200) solid;
+    background-color: white;
+    margin-bottom: 30px;
+}
+#left .portifolio .bloco .foto img{
+    width: 100%;
+}
+#left .portifolio .bloco .descricao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+#left .portifolio .bloco .descricao h2{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#left .portifolio .bloco .descricao h4{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(160, 160, 160);
+}
+#left .portifolio .bloco .descricao .perfil img{
+    clip-path: circle(50% at 50% 50%);
+}
+
+#left .postagem{
+    padding-top: 20px;
+}
+#left .postagem .bloco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px rgb(200, 200, 200) solid;
+}
+#left .postagem .bloco img{
+    height: 60px;
+    max-width: 60px;
+    padding: 0 10px;
+    object-fit: cover;
+}
+#left .postagem .bloco .descricao h3{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#left .postagem .bloco .descricao h4{
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(160, 160, 160);
+}
+#left .about{
+    padding: 30px 0;
+    border-bottom: 1px rgb(200, 200, 200) solid;
+}
+#left .about h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+#left .about h3{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(125, 125, 125);
+    line-height: 20px;
+}
+#left .about .learn{
+    padding: 30px 20px 10px 20px;
+}
+#left .about .learn a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+#left .icones i{
+    padding-top: 50px;
+    padding-right: 20px;
+    color: rgb(200, 200, 200);
+}
+#left .untitled{
+    padding-top: 30px;
+    color: rgb(200, 200, 200);
+    font-size: 7px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#right{
+    width: 55.2vw;
+    /* border: 2px black solid; */
+}
+#right article{
+    background-color: white;
+    border: 1px rgb(200, 200, 200) solid;
+    margin-bottom: 45px;
+}
+#right .topo{
+    display: flex;
+    border-bottom: 1px rgb(200, 200, 200) solid;
+}
+#right .topo .titulo{
+    width: 70%;
+    padding: 40px;
+}
+#right .topo .titulo h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 1000;
+}
+#right .topo .titulo h2{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(125, 125, 125);
+}
+#right .topo .perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 30%;
+    border-left: 1px rgb(200, 200, 200) solid;
+    padding: 30px;
+    text-align: center;
+}
+#right .topo .perfil h3{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 1000;
+}
+#right .topo .perfil .nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right .topo .perfil .nome h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right .topo .perfil .nome h2 a{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* text-decoration: none; */
+    color: rgb(125, 125, 125);
+    padding-right: 15px;
+    margin-top: 0;
+}
+#right .topo .perfil .nome img{
+    clip-path: circle(50% at 50% 50%);
+}
+#right .conteudo{
+    padding: 50px;
+}
+#right .conteudo .principal img{
+    width: 100%;
+}
+#right .conteudo .descricao{
+    padding-top: 30px;
+}
+#right .conteudo .descricao h3{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(90, 90, 90);
+}
+#right .conteudo .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right .conteudo .bottom .continue{
+    padding-left: 30px;
+}
+#right .conteudo .bottom .continue h2 a{
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+#right .conteudo .bottom .option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right .conteudo .bottom .option h3 a{
+    text-transform: uppercase;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+#right .conteudo .bottom .option h3{
+    padding-right: 20px;
+}
+#right .conteudo .bottom .option .icon a{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    padding: 0 20px;
+    border-left: 1px rgb(200, 200, 200) solid;
+    font-size: 12px;
+}
+#right .conteudo .bottom .option .icon i{
+    color: rgb(200, 200, 200);
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+footer{
+    background-color: #f4f4f4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+footer .page{
+    padding: 5px 40px;
+}
+footer .page a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+footer .page a i{
+    padding: 0 10px;
+    color: rgb(160, 160, 160);
+}
+footer .prev a{
+    color: rgb(160, 160, 160);
 }
