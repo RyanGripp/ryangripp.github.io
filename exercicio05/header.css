@@ -1,4 +1,5 @@
-header{
+.nave{
+    font-family: Arial;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,13 +11,14 @@ header{
     text-transform: uppercase;
     margin-bottom: 50px;
 }
-header .proximo a, header .anterior a{
+.nave .proximo a, header .anterior a{
     color: white;
     background-color: rgb(31, 89, 247);
     text-decoration: none;
+    border-radius: 5px;
     padding: 10px;
 }
-header h3{
+.nave h3{
     font-size: 1.17em;
     margin-block-start: 1em;
     margin-block-end: 1em;
