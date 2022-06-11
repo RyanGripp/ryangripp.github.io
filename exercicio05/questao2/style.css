@@ -1,0 +1,29 @@
+body{
+    background-color: #dddddd;
+}
+.titulo-tabela{
+    display: flex;
+    padding-bottom: 10px;
+}
+.titulo-tabela h1{
+    color: #dd0000;
+    padding: 0 20px;
+}
+.titulo-tabela img{
+    width: 161.25px;
+    height: 76.5px;
+    padding-left: 50px;
+}
+.taridas{
+    background-color: #dddddd;
+}
+.tarifas td{
+    padding: 10px;
+    color: #dd0000;
+    background-color: #ffffcc
+}
+.tarifas th{
+    padding: 10px;
+    color: #dd0000;
+    background-color: #fffccc;
+}
