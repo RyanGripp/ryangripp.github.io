@@ -1,11 +1,18 @@
 body{
     font-family: Arial;
 }
+body .nave{
+    margin: 0;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5vw;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+.header h4{
+    margin: 0;
 }
 .header .navegacao{
     display: flex;
@@ -13,6 +20,7 @@ body{
     border-radius: 4px;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 .header .navegacao li{
     padding: 5px;
@@ -32,7 +40,7 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 100px
+    margin-top: 210px
 }
 main .principal{
     border:  2px gray solid;

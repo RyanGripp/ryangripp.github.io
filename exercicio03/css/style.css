@@ -49,17 +49,20 @@ header nav ul .borda{
 }
 header nav ul li a{
     text-decoration: none;
-    color: rgb(160, 160, 160);
     padding: 17px;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 3px;
 }
+header nav a:hover{
+    color: #6881ee;
+    transition: all 0.4s ease;
+}
 header nav .buttons a{
     border-left: 1px rgb(200, 200, 200) solid;
     padding: 16px 20px;
 }
-header nav .buttons i{
+header nav a{
     color: rgb(160, 160, 160);
 }
 
@@ -181,10 +184,38 @@ main{
     color: black;
     font-weight: 700;
 }
-#left .icones i{
-    padding-top: 50px;
-    padding-right: 20px;
+#left .icones{
+    margin-top: 50px;
+}
+#left .icones a{
+    padding: 10px 5px 5px 5px;
+    margin-right: 15px;
     color: rgb(200, 200, 200);
+}
+#left .icones a i{
+    font-size: 25px;
+}
+#left .icones .twitter:hover{
+    color: #2aa9e0;
+    transition: color 0.3s ease;
+}
+#left .icones .facebook:hover{
+    color: #3b589e;
+    transition: color 0.3s ease;
+}
+#left .icones .instagram:hover{
+    background: linear-gradient(90deg, rgba(131,58,179,1) 0%, rgba(246,30,37,1) 50%, rgba(252,174,68,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#left .icones .rss:hover{
+    color: #f36e3a;
+    transition: color 0.3s ease;
+}
+#left .icones .envelope:hover{
+    color: #e82b23;
+    transition: color 0.3s ease;
 }
 #left .untitled{
     padding-top: 30px;
@@ -304,6 +335,10 @@ main{
     font-size: 12px;
     letter-spacing: 3px;
 }
+#right .conteudo .bottom .option h3 a:hover{
+    color: #6881ee;
+    transition: 400ms ease;
+}
 #right .conteudo .bottom .option h3{
     padding-right: 20px;
 }
@@ -314,9 +349,16 @@ main{
     border-left: 1px rgb(200, 200, 200) solid;
     font-size: 12px;
 }
+#right .conteudo .bottom .option .icon .coracao:hover{
+    color: red;
+    transition: 400ms ease;
+}
+#right .conteudo .bottom .option .icon .comentario:hover{
+    color: rgb(32, 103, 235);
+    transition: 400ms ease;
+}
 #right .conteudo .bottom .option .icon i{
-    color: rgb(200, 200, 200);
-    padding-right: 10px;
+    padding-right: 5px;
     font-size: 12px;
 }
 

@@ -1,0 +1,27 @@
+.nave{
+    font-family: Arial;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.nave .proximo a, header .anterior a{
+    color: white;
+    background-color: rgb(0,135,20);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nave h3{
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

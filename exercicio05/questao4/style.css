@@ -12,6 +12,9 @@ hr{
     font-family: Arial;
     padding-top: 90px;
 }
+body .nave{
+    margin-bottom: 0;
+}
 #main-content h1{
     margin: 0 0 10px 0;
 }
